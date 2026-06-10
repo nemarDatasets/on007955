@@ -1,0 +1,10 @@
+onset	duration	trial_type	Word	Correlation	NewWord
+0	0	word_selection	temor	0.507947015762329	0
+4.12268900871277	0	word_selection	terror	0.536713719367981	0
+9.21654105186462	0	word_selection	espanto	0.598830461502075	0
+22.5626039505005	0	word_selection	pena	0	1
+30.5283780097961	0	word_selection	vertigo	0.555017977952957	0
+38.6034278869629	0	word_selection	ansiedad	0	1
+48.5942530632019	0	word_selection	panico	0.528298571705818	0
+54.9873380661011	0	word_selection	nerviosamente	0	1
+63.8559520244598	0	word_selection	nervios	0	1
