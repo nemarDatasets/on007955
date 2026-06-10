@@ -1,9 +1,12 @@
 {
-  "Name": "EEG and autonomic responses during emotional word association",
-  "BIDSVersion": "1.9.0",
-  "DatasetType": "raw",
-  "License": "CC BY 4.0",
-  "Authors": [
-    "Manuel Cebral-Loureda"
-  ]
+    "Name": "EEG and autonomic responses during emotional word association",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Manuel Cebral-Loureda"
+    ],
+    "Funding": [
+        "SECIHTI CF-2023-G-583"
+    ]
 }
