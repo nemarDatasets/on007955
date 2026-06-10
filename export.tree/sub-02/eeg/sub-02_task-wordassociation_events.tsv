@@ -1,0 +1,11 @@
+onset	duration	trial_type	Word	Correlation	NewWord
+0	0	word_selection	incertidumbre	0	1
+15.700355052948	0	word_selection	impotencia	0	1
+18.7256379127502	0	word_selection	debilidad	0.553473770618439	0
+40.1228740215302	0	word_selection	incertidumbre	0	1
+46.6555240154266	0	word_selection	separacion	0	1
+65.4710149765015	0	word_selection	ordenes	0.425570905208588	0
+67.107626914978	0	word_selection	prision	0	1
+70.201709985733	0	word_selection	instrucciones	0.551553323864937	0
+77.2624318599701	0	word_selection	coaccion	0	1
+89.5336499214172	0	word_selection	silencio	0	1
