@@ -1,0 +1,10 @@
+{
+  "TaskName": "wordassociation",
+  "Manufacturer": "OpenBCI",
+  "ManufacturersModelName": "Cyton + Ultracortex Mark IV",
+  "SamplingFrequency": 250,
+  "EEGChannelCount": 8,
+  "EEGReference": "Linked earlobes (A1/A2)",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a"
+}
