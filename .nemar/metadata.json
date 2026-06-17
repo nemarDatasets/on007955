@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG and autonomic responses during emotional word association",
+  "description": "This dataset comprises synchronized electroencephalographic (EEG), autonomic physiological, and behavioral recordings acquired during an emotional word association task. Participants performed a lexical task involving emotionally relevant concepts associated with fear, selecting or generating words in response to prompts while neural activity and autonomic responses were recorded. The dataset includes 8-channel EEG data, electrodermal activity, blood volume pulse, interbeat interval, skin temperature measurements, and timestamped behavioral event markers with semantic similarity metrics.",
+  "methods_description": "EEG signals were acquired using an OpenBCI Cyton board with Ultracortex Mark IV headset (8 channels at Fp1, Fp2, F3, F4, P7, P8, O1, O2; 250 Hz sampling rate). Autonomic physiological signals were recorded using an Empatica E4 wristband, including electrodermal activity, blood volume pulse, interbeat interval, and skin temperature. All data streams were timestamped during acquisition to enable synchronization between EEG, physiological, and behavioral recordings.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +16,48 @@
       ]
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007955.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "emotion recognition"
+    },
+    {
+      "term": "word association"
+    },
+    {
+      "term": "autonomic nervous system"
+    },
+    {
+      "term": "electrodermal activity"
+    },
+    {
+      "term": "semantic similarity"
+    },
+    {
+      "term": "fear"
+    },
+    {
+      "term": "Empatica E4"
+    },
+    {
+      "term": "behavioral markers"
+    },
+    {
+      "term": "OpenBCI"
+    },
+    {
+      "term": "lexical task"
+    },
+    {
+      "term": "multimodal"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007955",
       "identifier_type": "URL",
@@ -44,6 +82,11 @@
       "identifier": "10.3389/fnhum.2026.1692599",
       "identifier_type": "DOI",
       "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007955.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -54,67 +97,19 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "27.7 MB (10 files)"
   ],
   "formats": [
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises synchronized electroencephalographic and autonomic physiological recordings acquired during an emotional word association task focused on fear-related concepts. Participants generated or selected words in response to emotionally relevant lexical prompts while EEG (8 channels, 250 Hz), electrodermal activity, blood volume pulse, interbeat interval, and skin temperature were continuously recorded. The dataset includes behavioral event markers with semantic similarity measures between consecutive words, enabling investigation of neural and physiological correlates of emotional semantic processing.",
-  "methods_description": "EEG signals were acquired using an OpenBCI Cyton board with Ultracortex Mark IV headset (8 channels: Fp1, Fp2, F3, F4, P7, P8, O1, O2; sampling rate 250 Hz). Autonomic physiological signals (electrodermal activity, blood volume pulse, interbeat interval, skin temperature) were recorded using an Empatica E4 wristband. Participants completed a word association task lasting approximately three minutes, during which they either selected suggested words or generated novel words in response to emotionally relevant prompts. All data streams were timestamped during acquisition to enable synchronization.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "emotion recognition"
-    },
-    {
-      "term": "fear"
-    },
-    {
-      "term": "word association"
-    },
-    {
-      "term": "autonomic nervous system"
-    },
-    {
-      "term": "electrodermal activity"
-    },
-    {
-      "term": "blood volume pulse"
-    },
-    {
-      "term": "interbeat interval"
-    },
-    {
-      "term": "skin temperature"
-    },
-    {
-      "term": "semantic processing"
-    },
-    {
-      "term": "physiological signals"
-    },
-    {
-      "term": "OpenBCI"
-    },
-    {
-      "term": "Empatica E4"
-    },
-    {
-      "term": "Ultracortex"
-    },
-    {
-      "term": "task-based EEG"
-    }
-  ],
-  "source_hash": "69c462a8ba2f1f798a1259ecff531a8127a5532382d55f71881d3a583aa80b17"
+  "source_hash": "8836a7f6ec4716a844e8d5eacfbcb1486b94a8b36d70440674a6670f437c8c9d"
 }
