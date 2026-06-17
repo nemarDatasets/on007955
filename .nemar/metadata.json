@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG and autonomic responses during emotional word association",
-  "description": "This dataset comprises synchronized electroencephalographic (EEG), autonomic physiological, and behavioral recordings acquired during an emotional word association task. Participants performed a lexical task involving emotionally relevant concepts associated with fear, selecting or generating words in response to prompts while neural activity and autonomic responses were recorded. The dataset includes 8-channel EEG data, electrodermal activity, blood volume pulse, interbeat interval, skin temperature measurements, and timestamped behavioral event markers with semantic similarity metrics.",
-  "methods_description": "EEG signals were acquired using an OpenBCI Cyton board with Ultracortex Mark IV headset (8 channels at Fp1, Fp2, F3, F4, P7, P8, O1, O2; 250 Hz sampling rate). Autonomic physiological signals were recorded using an Empatica E4 wristband, including electrodermal activity, blood volume pulse, interbeat interval, and skin temperature. All data streams were timestamped during acquisition to enable synchronization between EEG, physiological, and behavioral recordings.",
+  "description": "This dataset comprises synchronized electroencephalographic (EEG), autonomic physiological, and behavioral recordings acquired during an emotional word association task. Participants performed a lexical task involving fear-related concepts, selecting or generating words in response to prompts while neural activity, autonomic responses (electrodermal activity, blood volume pulse, interbeat interval, and skin temperature), and behavioral events were recorded. The dataset includes 8-channel EEG data sampled at 250 Hz alongside physiological signals from an Empatica E4 wristband, with semantic similarity measures between consecutive word responses. This is the enriched version of OpenNeuro dataset ds007955 with additional analysis and documentation. Note: Physiological data for participant 7 are unavailable due to a data acquisition error with the Empatica E4 recording system; EEG and behavioral data remain available for this participant.",
+  "methods_description": "EEG signals were acquired using an OpenBCI Cyton acquisition board with Ultracortex Mark IV headset (8 channels at Fp1, Fp2, F3, F4, P7, P8, O1, O2; 250 Hz sampling rate). Autonomic physiological signals were recorded using an Empatica E4 wristband (electrodermal activity, blood volume pulse, interbeat interval, skin temperature). All data streams were timestamped during acquisition to enable synchronization. Experimental sessions lasted approximately three minutes, with participants completing a word association task involving emotionally relevant fear-related concepts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,34 +27,40 @@
       "term": "word association"
     },
     {
-      "term": "autonomic nervous system"
+      "term": "Autonomic Nervous System",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001341"
     },
     {
       "term": "electrodermal activity"
     },
     {
+      "term": "physiological signals"
+    },
+    {
+      "term": "fear-related concepts"
+    },
+    {
       "term": "semantic similarity"
-    },
-    {
-      "term": "fear"
-    },
-    {
-      "term": "Empatica E4"
-    },
-    {
-      "term": "behavioral markers"
-    },
-    {
-      "term": "OpenBCI"
     },
     {
       "term": "lexical task"
     },
     {
-      "term": "multimodal"
+      "term": "OpenBCI"
     },
     {
-      "term": "BIDS"
+      "term": "Empatica E4"
+    },
+    {
+      "term": "Emotions",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004644"
+    },
+    {
+      "term": "Fear",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005239"
     }
   ],
   "related_identifiers": [
