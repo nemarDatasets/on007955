@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007955",
+  "source": "openneuro",
+  "source_id": "ds007955",
+  "title": "EEG and autonomic responses during emotional word association",
+  "authors": {
+    "Manuel Cebral-Loureda": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007955.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "SECIHTI CF-2023-G-583"
+    }
+  ]
+}
