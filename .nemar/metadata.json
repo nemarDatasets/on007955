@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG and autonomic responses during emotional word association",
-  "description": "This dataset comprises synchronized electroencephalographic (EEG), autonomic physiological, and behavioral recordings acquired during an emotional word association task. Participants performed a lexical task involving fear-related concepts, selecting or generating words in response to prompts while neural activity, autonomic responses (electrodermal activity, blood volume pulse, interbeat interval, and skin temperature), and behavioral events were recorded. The dataset includes 8-channel EEG data sampled at 250 Hz alongside physiological signals from an Empatica E4 wristband, with semantic similarity measures between consecutive word responses. This is the enriched version of OpenNeuro dataset ds007955 with additional analysis and documentation. Note: Physiological data for participant 7 are unavailable due to a data acquisition error with the Empatica E4 recording system; EEG and behavioral data remain available for this participant.",
-  "methods_description": "EEG signals were acquired using an OpenBCI Cyton acquisition board with Ultracortex Mark IV headset (8 channels at Fp1, Fp2, F3, F4, P7, P8, O1, O2; 250 Hz sampling rate). Autonomic physiological signals were recorded using an Empatica E4 wristband (electrodermal activity, blood volume pulse, interbeat interval, skin temperature). All data streams were timestamped during acquisition to enable synchronization. Experimental sessions lasted approximately three minutes, with participants completing a word association task involving emotionally relevant fear-related concepts.",
+  "description": "This dataset contains synchronized EEG, autonomic physiological recordings, and behavioral responses collected during an emotional word association task centered on fear-related concepts. Participants either selected suggested words or generated new ones. Eight-channel EEG, electrodermal activity, blood volume pulse, interbeat interval, skin temperature, and word events with semantic similarity scores between consecutive words are included.",
+  "methods_description": "EEG was recorded at 250 Hz from 8 channels (Fp1, Fp2, F3, F4, P7, P8, O1, O2) using an OpenBCI Cyton board with an Ultracortex Mark IV headset and ear-clip electrodes. Autonomic signals (EDA, BVP, IBI, skin temperature) were recorded with an Empatica E4 wristband. All streams were timestamped for synchronization with word selection and generation events. Sessions lasted approximately three minutes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,56 +21,27 @@
       "term": "EEG"
     },
     {
-      "term": "emotion recognition"
+      "term": "emotion"
     },
     {
       "term": "word association"
     },
     {
-      "term": "Autonomic Nervous System",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001341"
-    },
-    {
       "term": "electrodermal activity"
     },
     {
-      "term": "physiological signals"
-    },
-    {
-      "term": "fear-related concepts"
+      "term": "autonomic responses"
     },
     {
       "term": "semantic similarity"
     },
     {
-      "term": "lexical task"
-    },
-    {
-      "term": "OpenBCI"
-    },
-    {
-      "term": "Empatica E4"
-    },
-    {
-      "term": "Emotions",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004644"
-    },
-    {
-      "term": "Fear",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005239"
+      "term": "fear"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007955",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007955",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -93,6 +64,11 @@
       "identifier": "10.18112/openneuro.ds007955.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007955",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -108,7 +84,7 @@
     "eeg"
   ],
   "sizes": [
-    "27.7 MB (10 files)"
+    "26.44 MB (10 files)"
   ],
   "formats": [
     ".json",
